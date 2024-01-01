@@ -1,0 +1,21 @@
+.cc-reference p{
+    font-weight: 1000px;
+    color: black;
+    font-style: bold;
+  }
+
+  .category p{
+      width: 10%
+  }
+  .carousel-indicators [data-bs-target] {
+    border:0px !important;
+  }
+
+.carousel-indicators ::marker{
+    height: 1px;
+  }
+  .ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, ul,li {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }

@@ -1,0 +1,78 @@
+{  
+    "about": "I am a solution-oriented software engineer with 6+ years of professional full-time experience.",
+    "about1": "Experienced in designing, developing and maintaining software applications. . Worked with Software Development Life Cycle(SDLC) and  agile methodologies . 10+ years of experience in developing web applications and mobile applications. .My expertise includes developing, publishing, and promoting Blogs, Full stack apps, Browser Extensions, Mobile applications, Content writing, and UI/UX design.",
+    "about2" : "Notable Accomplishments: Winner of Smart India Hackathon 2017 | Orion Innovation's - Frontend Champion 2020 | Orion Innovation's - Dot Net Full stack Champion 2020 . My Interest:  Technical coaching and Mentoring, Exploring new technologies, Designing Architecture for Scalable Systems, Cloud Infrastructure, Growth, Startups, SEO, Marketing, UX, Community building, Security and Networking. .  \u2764\uFE0F I love knowledge sharing and have a keen interest to learn new technologies. . 😀 I welcome you to get in touch, and I am readily available to discuss any of the aforementioned interests! ",
+    "resumeurl" :"https://docs.google.com/document/d/1WODFuhIzQw2AXPsjt6f3rs-EDWhdhT8s89fOTrGRh70/edit?usp=sharing",
+    "skillData" :[
+  {
+    "id": "1",
+    "skill": "ANGULAR",
+    "progress": "95%"
+  },
+  {
+    "id": "2",
+    "skill": ".NET, C#, Entity Framework Core",
+    "progress": "90%"
+  },
+  {
+    "id": "3",
+    "skill": "REACT JS, Node JS, JAVASCRIPT",
+    "progress": "80%"
+  },
+  {
+    "id": "4",
+    "skill": "SQL , MYSQL, MONGO DB, Cassandra",
+    "progress": "75%"
+  },
+  {
+    "id": "5",
+    "skill": "Microsoft Azure",
+    "progress": "75%"
+  },
+  {
+    "id": "6",
+    "skill": "PYTHON,JAVA",
+    "progress": "50%"
+  }
+],
+"experienceData": [
+    {
+      "id": 2,
+      "company": "Ford Motor Company",
+      "location": "Chennai",
+      "timeline": "Oct 2022 to Present",
+      "role": "Senior Software Engineer",
+      "work": "Skills: Web Development, Agile Methodologies, Unit Testing, Software Design, Angular 10, Dot NET, C#, Microsoft SQL Server . As a SME of a Product Driven Organization, my role is to involve extensively in all stages of software development life cycle including Requirements gathering, Development, Testing, Deployment and Support. .Building web applications and software using Angular and Dot Net technologies for manufacturing plants to schedule and broadcast in Assembly and Stamping plant floors. .Responsibilities: Stakeholder communication, Estimations, Technical Design, Implementation, Test Driven Development, Code reviews, Automated testing, Production support, and Module business SME."
+
+    },
+    {
+      "id": 1,
+      "company": "Orion Innovation",
+      "location": "Chennai",
+      "timeline": "May 2018 - Oct 2022",
+      "role": "Assistant System Engineer Trainee",
+      "work": "Skills: Web Development, Agile Methodologies, Unit Testing, Continuous Integration and Continuous Delivery (CI/CD), Angular 10, Dot NET Framework. Azure DevOps. React.js, Cassandra .As a skilled software engineer, my role is to build and maintain web application and to work directly with clients to deliver the product and for production support. .Building web applications and software using Angular and Dot Net technologies for Finance, Tax and Accounting firms. .Responsibilities: Product Discussion, Development, Unit Testing, Peer-to-Peer Code reviews, Estimation, Documentation, Deployment and Production Support."
+    }
+  ],
+  "referenceData":[
+    {
+        "name":"Aamina Tabassum Kunjan",
+        "role":"Gold-medalist | Senior Business Analyst, Orion Innovation",
+        "comment":"Ajay has been a significant contributor in our complex Tax/Investment project. He is not only knowledgeable about the functionality of each stack, but also has the ability to jump in and independently solve problems in any phase of application development when needed." ,
+        "profileImg":"../../../assets/images/aamina.jpg"
+        
+    },
+    {
+        "name":"Ekta Jain",
+        "role":"Senior Manager, Orion Innovation",
+        "comment":"Ajay is an all-rounder team player. He has displayed excellency at his work and always been eager to extend help to his colleagues. I remember most newbie front end developers reaching to him for technical sessions and probl solving. And the best thing in all this is his attitude to help. From being an efficient software engineer himself to an awesome, cool fellow being to work with. Keep it up and keep scaling your skills too. All the very best! ",
+        "profileImg":"../../../assets/images/ekta.jpg"
+    },
+    {
+        "name":"Shushant Pal",
+        "role":"Business Analyst | Product Owner | Mentor",
+        "comment":"Ajay is an extremely talented full-stack developer and TL. He is a self-motivated individual and a team player. Apart from advancing his skills he also likes to share his knowledge and participates by taking workshops with colleagues and new joiners. He is a great mentor for his team, all the best for your future endevours. ",
+        "profileImg":"../../../assets/images/shushant.jpg"
+    }
+  ]
+}

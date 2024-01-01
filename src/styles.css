@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+Color Codes:
+background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(0, 51, 102));
+
+.btn-primary {
+    background-color: rgba(255,111,97, 0.65);
+    color: #F8F8F8;
+}
+.bg-primary {
+    background-color: rgba(0, 51, 102,1) !important; or Primary Color (Deep Blue #003366)
+}
+
+Background: Primary Color (Deep Blue #003366)
+ Text: Off-White (#F8F8F8) or Light Gray (#D0D0D0)
+ Buttons/Links: Accent Color (Coral #FF6F61) for CTAs; Off-White (#F8F8F8) for secondary options
+Hover State: A slightly lighter or darker shade of the Accent Color (Coral #FF6F61)
+
+*/

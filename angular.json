@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ajprakash-portfolio",
+            "outputPath": "dist/ajprakash-portfolio/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -27,7 +27,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/now-ui-kit/assets/js/now-ui-kit.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -91,8 +96,65 @@
             ],
             "scripts": []
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/ajprakash-portfolio/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "ajprakash-portfolio:build:development",
+              "serverTarget": "ajprakash-portfolio:server:development"
+            },
+            "production": {
+              "browserTarget": "ajprakash-portfolio:build:production",
+              "serverTarget": "ajprakash-portfolio:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ajprakash-portfolio:build:production",
+              "serverTarget": "ajprakash-portfolio:server:production"
+            },
+            "development": {
+              "browserTarget": "ajprakash-portfolio:build:development",
+              "serverTarget": "ajprakash-portfolio:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "cdaf7b2c-66bb-4dc0-b6b3-bf737a966a3f"
   }
 }
